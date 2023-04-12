@@ -16,10 +16,12 @@
 
     <script>
         var nome= window.prompt('Qual seu nome?')
-         document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br>`)
-         document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br>`)
-         Document.write(`Seu nome em minusculas`)
+        document.write (`Olá <strong>${nome}</strong>! Seu nome tem ${nome.length} letras. <br/>`)
+        document.write (`Seu nome em letras maiusculas ${nome.toUpperCase()} <br/>`)
+        document.write (`Seu nome em letras minusculas ${nome.toLowerCase()}`)
          //n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+         //.tofixed() para vc colocar o numero de casas que vc quer que tenha depois da virgula
+         //.replace('.' , ',') para trocar as propriedades ex: 1,350.00 faria o . virar , e a , virar . 
     </script>
 </body>
 </html>
