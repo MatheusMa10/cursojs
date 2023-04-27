@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(107, 142, 236);
+    font: normal 15pt arial;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section {
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+}
+
+div#msg{
+    text-align: center;
+    padding: 12px;
+}
+
+section > div#foto {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+}
